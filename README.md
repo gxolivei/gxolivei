@@ -1,3 +1,11 @@
+<div align="center">
+  
+  |   Stats   |   Languages    |
+  | :---: | :---: |
+  | <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=gxolivei&hide=contribs,prs&theme=react&bg_color=00000000&hide_border=true"/> </a> | <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gxolivei&layout=compact&theme=react&&bg_color=00000000&hide_border=true"/> </a> |
+
+</div>
+  
 ```ruby
 class Person
   attr_accessor :name, :current_work, :hobbies
@@ -18,7 +26,9 @@ class Person
     end
   end
 end
+```
 
+```ruby
 gabriel_hobbies = [
   'Reading', 
   'Listening to Classical Music', 
@@ -31,8 +41,9 @@ gabriel = Person.new('Gabriel', 'Coding at Twygo', gabriel_hobbies)
 
 city = -> { 'Florianópolis' }
 ambitions = [-> { 'Getting better at coding' }, -> { 'Building a SaaS' }]
+```
 
+```ruby
 puts "City: #{gabriel.get_city(city)}"
 puts "Ambitions:", gabriel.get_ambitions(ambitions)
-``` 
-
+```

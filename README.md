@@ -1,16 +1,38 @@
-### Hi there 👋
+```ruby
+class Person
+  attr_accessor :name, :current_work, :hobbies
 
-<!--
-**gxolivei/gxolivei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  def initialize(name, current_work, hobbies)
+    @name = name
+    @current_work = current_work
+    @hobbies = hobbies
+  end
 
-Here are some ideas to get you started:
+  def get_city(city)
+    city.call
+  end
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  def get_ambitions(ambitions)
+    ambitions.map do |ambition|
+      ambition.call
+    end
+  end
+end
+
+gabriel_hobbies = [
+  'Reading', 
+  'Listening to Classical Music', 
+  'Studying New Technologies', 
+  'Going Out with Family', 
+  'Meeting Friends', 
+  'Laughing as Much as Possible'
+]
+gabriel = Person.new('Gabriel', 'Coding at Twygo', gabriel_hobbies)
+
+city = -> { 'Florianópolis' }
+ambitions = [-> { 'Getting better at coding' }, -> { 'Building a SaaS' }]
+
+puts "City: #{gabriel.get_city(city)}"
+puts "Ambitions:", gabriel.get_ambitions(ambitions)
+``` 
+

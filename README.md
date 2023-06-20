@@ -2,7 +2,7 @@
   
   |   Stats   |   Languages    |
   | :---: | :---: |
-  | <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=gxolivei&hide=contribs,prs&theme=react&bg_color=00000000&hide_border=true"/> </a> | <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gxolivei&layout=compact&theme=react&&bg_color=00000000&hide_border=true"/> </a> |
+  | <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=gxolivei&theme=react&bg_color=00000000&hide_border=true"/> </a> | <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gxolivei&layout=compact&theme=react&&bg_color=00000000&hide_border=true"/> </a> |
 
 </div>
 

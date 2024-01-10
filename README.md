@@ -21,7 +21,7 @@ Always looking for new projects to work on and expand my knowledge and skills
 
 
 ```ruby
-class Person
+class SoftwareEngineer
   attr_accessor :name, :current_work, :hobbies
 
   def initialize(name, current_work, hobbies)
@@ -52,7 +52,7 @@ gabriel_hobbies = [
   'Meeting Friends', 
   'Laughing as Much as Possible'
 ]
-gabriel = Person.new('Gabriel', 'Software Engineer at Twygo', gabriel_hobbies)
+gabriel = SoftwareEngineer.new('Gabriel', 'Software Engineer at Twygo', gabriel_hobbies)
 
 city = -> { 'Florianópolis' }
 ambitions = [-> { 'Getting better at coding' }, -> { 'Building a SaaS' }, -> { 'Expanding knowledge' }]

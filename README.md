@@ -2,10 +2,11 @@
 class SoftwareEngineer
   attr_accessor :name, :current_work, :hobbies
 
-  def initialize(name, current_work, hobbies)
+  def initialize(name, current_work, hobbies, github_profile)
     @name = name
     @current_work = current_work
     @hobbies = hobbies
+    @github_profile = github_profile
   end
 
   def get_city(city)
@@ -30,7 +31,7 @@ gabriel_hobbies = [
   'Meeting Friends', 
   'Laughing as Much as Possible'
 ]
-gabriel = SoftwareEngineer.new('Gabriel', 'Keep It Simple LLC (KIS)', gabriel_hobbies)
+gabriel = SoftwareEngineer.new('Gabriel', 'Keep It Simple LLC (KIS)', gabriel_hobbies, 'Personal')
 
 city = -> { 'Florianópolis' }
 ambitions = [-> { 'Getting better at coding' }, -> { 'Building a SaaS' }, -> { 'Expanding knowledge' }]

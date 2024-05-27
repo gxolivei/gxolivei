@@ -1,6 +1,6 @@
 ```ruby
 class SoftwareEngineer
-  attr_accessor :name, :current_work, :hobbies
+  attr_accessor :name, :current_work, :hobbies, :github_profile
 
   def initialize(name, current_work, hobbies, github_profile)
     @name = name

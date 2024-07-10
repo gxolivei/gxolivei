@@ -14,9 +14,7 @@ class SoftwareEngineer
   end
 
   def get_ambitions(ambitions)
-    ambitions.map do |ambition|
-      ambition.call
-    end
+    ambitions.map(&:call)
   end
 end
 ```
@@ -31,6 +29,7 @@ gabriel_hobbies = [
   'Meeting Friends', 
   'Laughing as Much as Possible'
 ]
+
 gabriel = SoftwareEngineer.new('Gabriel', 'Keep It Simple LLC (KIS)', gabriel_hobbies, 'Personal')
 
 city = -> { 'Florianópolis' }
@@ -39,7 +38,8 @@ ambitions = [-> { 'Getting better at coding' }, -> { 'Building a SaaS' }, -> { '
 
 ```ruby
 puts "City: #{gabriel.get_city(city)}"
-puts "Ambitions:", gabriel.get_ambitions(ambitions)
+puts "Ambitions:"
+puts gabriel.get_ambitions(ambitions)
 ```
 
 <div align="center">

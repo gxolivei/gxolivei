@@ -30,7 +30,7 @@ gabriel_hobbies = [
   'Laughing as Much as Possible'
 ]
 
-gabriel = SoftwareEngineer.new('Gabriel', 'Keep It Simple LLC (KIS)', gabriel_hobbies, 'Personal')
+gabriel = SoftwareEngineer.new('Gabriel', 'KIS @ Estée Lauder', gabriel_hobbies, 'Personal')
 
 city = -> { 'Florianópolis' }
 ambitions = [-> { 'Getting better at coding' }, -> { 'Building a SaaS' }, -> { 'Expanding knowledge' }]

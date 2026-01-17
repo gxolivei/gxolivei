@@ -1,5 +1,5 @@
 ```ruby
-class SoftwareEngineer
+class SoftwareEngineeringLead
   attr_accessor :name, :current_work, :hobbies, :github_profile
 
   def initialize(name, current_work, hobbies, github_profile)
@@ -30,7 +30,7 @@ gabriel_hobbies = [
   'Laughing as Much as Possible'
 ]
 
-gabriel = SoftwareEngineer.new('Gabriel', 'Team Lead @ KIS', gabriel_hobbies, 'Personal')
+gabriel = SoftwareEngineeringLead.new('Gabriel', 'Software Engineering Lead @ KIS', gabriel_hobbies, 'Personal')
 
 city = -> { 'Florianópolis' }
 ambitions = [-> { 'Building a SaaS' }, -> { 'Expanding knowledge' }]

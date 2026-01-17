@@ -38,8 +38,7 @@ ambitions = [-> { 'Building a SaaS' }, -> { 'Expanding knowledge' }]
 
 ```ruby
 puts "City: #{gabriel.get_city(city)}"
-puts "Ambitions:"
-puts gabriel.get_ambitions(ambitions)
+puts "Ambitions: #{gabriel.get_ambitions(ambitions)}"
 ```
 
 <div align="center">

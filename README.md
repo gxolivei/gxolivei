@@ -33,7 +33,7 @@ gabriel_hobbies = [
 gabriel = SoftwareEngineer.new('Gabriel', 'Team Lead @ KIS', gabriel_hobbies, 'Personal')
 
 city = -> { 'Florianópolis' }
-ambitions = [-> { 'Getting better at coding' }, -> { 'Building a SaaS' }, -> { 'Expanding knowledge' }]
+ambitions = [-> { 'Building a SaaS' }, -> { 'Expanding knowledge' }]
 ```
 
 ```ruby
